@@ -1,0 +1,62 @@
+.container{
+   
+    margin: auto;
+background: url(bobo.jpeg) center/cover;
+}
+
+.quotes-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+
+}
+.inner-quotes-container{
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    width: 900px;
+    text-align: center;
+    min-height: 400px;
+    padding: 0px 25px; 
+    color: rgb(75, 75, 75);
+    border-radius: 10px;
+    background-color: #f4edea75;
+    border: 10px solid #0f0c29c0;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.9);   
+}
+.inner-quotes-container p{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Dancing Script' cursive;
+}
+button{ 
+    margin-top: 16px;
+    background: #0f0c29;
+    color: white;
+    border: 1px solid #302b63;
+    padding: 20px;
+    outline: none;
+}
+.quotes-btn{
+    padding-top: 25px;
+}
+@media (max-width:1280px) {
+    .container{
+        width: 95%;
+    }
+}
+@media (max-width:900px) {
+    .inner-quotes-container{
+        width:100%;
+    }
+}
+@media (max-width:480px) {
+    .inner-quotes-container p{
+        font-size: 1.2rem;
+    }
+    .inner-quotes-container h3{
+        font-size: 1.5rem;
+    }
+}
